@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <script src="jquery-1.4.min.js"></script>
+        <script src="jquery.autocomplete.pack.js"></script>
+        <script src="jquery-fb-input.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("#one, #three").fbInput({data:["one","two","three"]});
+            });
+        </script>
+        <link href="fbInput.css" rel="stylesheet" type="text/css"/>
+		<link href="jquery.autocomplete.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <input id="one">
+         <input id="two">
+         
+         <hr/>
+         <input id="three">
+    </body>
+</html>
