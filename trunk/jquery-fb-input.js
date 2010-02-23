@@ -1,5 +1,6 @@
 /*
  * jQuery fbInput 1.0.0
+ *(http://code.google.com/p/fbinput/)
  *
  * Author: Pascal Nunes
  * Licensed under the MIT LICENSE
